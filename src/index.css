@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 6rem;
+  font-weight: 600;
+  display: block;
+  font-kerning: none;
+  text-rendering: optimizeSpeed;
+}
+
+.text_container {
+  height: 6rem;
+  overflow: hidden;
+  line-height: 1;
+}
